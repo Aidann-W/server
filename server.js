@@ -6,7 +6,7 @@ const app = express();
 app.use(cors({ methods: ['GET', 'POST', 'PUT', 'DELETE'] }));
 app.use(bodyParser.json());
 
-const port = process.env.PORT || 3000
+const port = 3000
 
 let nextUserId = 0;
 
